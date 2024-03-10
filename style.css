@@ -1,0 +1,124 @@
+html {
+    background-image: url("https://i.pinimg.com/736x/bc/29/d7/bc29d709bc3e3e1c3d05e40b50f6cf90.jpg");
+    min-height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    color:  maroon;
+    font-size: 25px;
+    
+    
+  }
+  
+  .description {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+   
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+   
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #ff6f00;
+  }
+  
+ 
+  
+  label {
+   
+    display: block;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+  }
+
+  
+  .button{
+    padding: 10px ;
+    font-size: 20px;
+    border-radius: 5px;
+    background: maroon;
+    color: white;
+    margin-left: 150px;
+    cursor: pointer;
+   
+    
+  }
+  .button:hover {
+    background: orangered;
+  }
+ 
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .modal-wrap {
+    max-width: 600px;
+    margin: 50px auto;
+    
+    
+  }
+  .modal-header {
+    height: 45px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  .modal-bodies {
+    position: relative;
+   
+  
+  }
+  
+  .modal-body {
+    background: white;
+    padding: 40px 100px;
+    box-shadow: 0px 50px 30px -30px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    position: absolute;
+    display: none;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    
+  }
+  .modal-body.is-showing {
+    display: block;
+    
+  }
+  
+        input[type="text"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+  .radio-group {
+    display: flex;
+  }
+        
+  .radio-group label {
+    margin-right: 10px; 
+}
